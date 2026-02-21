@@ -1,5 +1,5 @@
 # 📱 iOS Development Portfolio Project Description
-This project is a fully functional iOS application developed using Swift and UIKit/SwiftUI, following modern Apple development standards and best practices.
+This project is a fully functional iOS application developed using Swift and UIKit, following modern Apple development standards and best practices.
 # The application demonstrates:
 - Clean and scalable architecture
 - Reusable UI components

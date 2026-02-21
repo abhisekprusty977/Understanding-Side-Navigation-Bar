@@ -50,10 +50,10 @@ class profileVC: UIViewController, UITextViewDelegate {
     private func setupProfileContent() {
         
         let attributedString = NSMutableAttributedString()
-
+        
         let normalFont = UIFont.systemFont(ofSize: 15)
         let linkFont = UIFont.systemFont(ofSize: 15)
-
+        
         func addText(_ text: String) {
             let attributes: [NSAttributedString.Key: Any] = [
                 .font: normalFont,
@@ -62,7 +62,7 @@ class profileVC: UIViewController, UITextViewDelegate {
             
             attributedString.append(NSAttributedString(string: text, attributes: attributes))
         }
-
+        
         func addLink(title: String, url: String) {
             let attributes: [NSAttributedString.Key: Any] = [
                 .font: linkFont,

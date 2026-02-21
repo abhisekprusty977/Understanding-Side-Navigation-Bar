@@ -8,7 +8,7 @@
 import UIKit
 
 class SettingsVC: UIViewController {
-
+    
     private let descriptionLabel: UILabel = {
         let label = UILabel()
         label.text = "Settings Description"
@@ -31,15 +31,15 @@ class SettingsVC: UIViewController {
         textView.text =
         """
         Welcome to Settings.
-
+        
         Here you can customize your app experience:
-
+        
         • Update your profile information
         • Change app preferences
         • Manage notifications
         • Control privacy options
         • View app version and updates
-
+        
         Make sure to review your settings regularly to get the best experience.
         """
         return textView

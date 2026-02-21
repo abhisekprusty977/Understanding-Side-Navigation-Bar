@@ -50,7 +50,7 @@ class sideMenuVC: UIViewController {
         }
     }
 }
-    
+
 
 extension sideMenuVC : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -68,11 +68,11 @@ extension sideMenuVC : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let data = dataArray[indexPath.row]
         if data.titleStr.contains("Profile") {
-              gotoProfile()
+            gotoProfile()
         } else if data.titleStr.contains("Settings") {
-           gotoSettings()
+            gotoSettings()
         } else {
-         gotoLogout()
+            gotoLogout()
         }
     }
     

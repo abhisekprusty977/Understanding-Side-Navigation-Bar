@@ -8,7 +8,7 @@
 import UIKit
 
 class SideMenuTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var titleLbl : UILabel! {
         didSet{
             titleLbl.textColor = .black
@@ -22,9 +22,9 @@ class SideMenuTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-
+    
 }

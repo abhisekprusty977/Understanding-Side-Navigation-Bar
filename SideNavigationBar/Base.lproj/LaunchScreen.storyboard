@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="aud-uS-1Cu">
+                                <rect key="frame" x="10" y="251" width="373" height="300"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Side Navigation Bar Example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kx7-Ne-GKg">
+                                <rect key="frame" x="10" y="561" width="373" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abhisek Prusty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GaU-rm-HCk">
+                                <rect key="frame" x="198" y="797" width="185" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aud-uS-1Cu" secondAttribute="trailing" constant="10" id="5z1-IP-lp0"/>
+                            <constraint firstItem="Kx7-Ne-GKg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="6zb-eQ-ri6"/>
+                            <constraint firstAttribute="trailing" secondItem="GaU-rm-HCk" secondAttribute="trailing" constant="10" id="CpT-ot-nGM"/>
+                            <constraint firstItem="aud-uS-1Cu" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-50" id="EBH-RV-ocz"/>
+                            <constraint firstItem="Kx7-Ne-GKg" firstAttribute="top" secondItem="aud-uS-1Cu" secondAttribute="bottom" constant="10" id="EXD-g5-udh"/>
+                            <constraint firstItem="aud-uS-1Cu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="XPg-EF-qxb"/>
+                            <constraint firstAttribute="bottom" secondItem="GaU-rm-HCk" secondAttribute="bottom" constant="25" id="aaN-KF-mkA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kx7-Ne-GKg" secondAttribute="trailing" constant="10" id="gl4-Du-0yZ"/>
+                            <constraint firstItem="aud-uS-1Cu" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hEZ-G0-06Z"/>
+                            <constraint firstItem="Kx7-Ne-GKg" firstAttribute="centerX" secondItem="aud-uS-1Cu" secondAttribute="centerX" id="kXe-vt-Nwv"/>
+                            <constraint firstItem="aud-uS-1Cu" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="300:852" id="yYo-F0-e0u"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="341.33334350585938" height="341.33334350585938"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
